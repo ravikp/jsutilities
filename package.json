@@ -1,0 +1,36 @@
+{
+  "name": "jsutilities",
+  "version": "1.0.0",
+  "description": "Contains extension methods on string and uri's.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint *.js test/*.js",    
+    "test": "mocha test -u bdd --reporter spec",
+    "watch-test": "mocha --watch -u bdd --reporter spec test",
+    "build": "npm run lint && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravikp/jsutilities.git"
+  },
+  "keywords": [
+    "compress",
+    "compression",
+    "uri",
+    "uri-compare",
+    "compare-uri",
+    "compress-string",
+    "string-compression"
+  ],
+  "author": "Ravi Kumar Pasumarthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravikp/jsutilities/issues"
+  },
+  "homepage": "https://github.com/ravikp/jsutilities#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0"
+  }
+}
